@@ -1,0 +1,53 @@
+html {
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+    object-fit: fit;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    width: 700px;
+    font-size: 20px;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foodContainer {
+    display: flex;
+    width: 400px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
